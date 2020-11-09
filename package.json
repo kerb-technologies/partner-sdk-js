@@ -1,0 +1,26 @@
+{
+  "name": "partner-sdk",
+  "version": "0.0.1",
+  "description": "Kerb Partner SDK for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerb-technologies/partner-sdk-js.git"
+  },
+  "keywords": [
+    "kerb",
+    "kerb-partner"
+  ],
+  "author": "Novi Ardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kerb-technologies/partner-sdk-js/issues"
+  },
+  "homepage": "https://github.com/kerb-technologies/partner-sdk-js#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
