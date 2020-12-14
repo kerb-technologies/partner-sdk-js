@@ -2,7 +2,7 @@
 Kerb Partner SDK for Javascript
 
 
-```
+```javascript
 import * as partner from 'kerb-partner';
 
 // set KERB_PARTNER_HOST in your environment
