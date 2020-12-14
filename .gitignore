@@ -1,2 +1,5 @@
 .*
+tags
+/coverage/
+/dist/
 /node_modules/
