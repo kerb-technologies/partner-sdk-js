@@ -2,7 +2,7 @@
 Kerb Partner SDK for Javascript
 
 
-```
+```javascript
 import * as partner from 'kerb-partner';
 
 // set KERB_PARTNER_HOST in your environment
@@ -20,7 +20,6 @@ const options = {
 partner.send('ping', options).then(response => {
     // do something with response
 });
-
 
 // use custom request object
 const request = partner.makeRequest('ping', options)
