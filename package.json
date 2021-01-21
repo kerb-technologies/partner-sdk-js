@@ -1,5 +1,5 @@
 {
-  "name": "@emaniacs/kerb-partner",
+  "name": "@chars/kerb-partner",
   "version": "0.0.1",
   "description": "Kerb Partner SDK for Javascript",
   "main": "dist/index.js",
