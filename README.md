@@ -1,5 +1,27 @@
+![npm](https://img.shields.io/npm/v/kerb-partner)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kerb-technologies/partner-sdk-js/Publish%20as%20Node%20Package)
+
 # partner-sdk-js
 Kerb Partner SDK for Javascript
+
+## documentations
+
+Detail documentation can be found at https://platform.kerb.works
+
+## installation
+
+Using npm
+`npm install --save kerb-partner`
+
+Using yarn
+`yarn add kerb-partner`
+
+
+
+
+
+
+## example
 
 
 ```javascript
@@ -35,14 +57,3 @@ partner.send('ping', options).then(response => {
 
 
 ```
-
-# Installation
-
-TODO
-
-# Configuration
-
-TODO
-
-
-
