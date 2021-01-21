@@ -15,10 +15,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 15
-      - run: npm ci
-      - run: npm test
         env:
           KERB_PARTNER_HOST: http://apis.kerb.local
+      - run: npm ci
+      - run: npm test
 
   publish-npm:
     needs: build
