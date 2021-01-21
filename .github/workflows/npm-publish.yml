@@ -19,9 +19,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" | tee .npmrc
-      - run: npm publish
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+      - run: npm publish
   publish-gpr:
     runs-on: ubuntu-latest
     steps:
@@ -32,6 +32,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" | tee .npmrc
-      - run: npm publish
         env:
           NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: npm publish
