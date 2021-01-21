@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: 15
           registry-url: https://registry.npmjs.org/
-          token: ${{secrets.NPM_TOKEN}}
       - run: npm ci
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc'
       - run: npm publish
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
@@ -31,8 +31,7 @@ jobs:
         with:
           node-version: 15
           registry-url: https://npm.pkg.github.com/
-          token: ${{secrets.GITHUB_TOKEN}}
       - run: npm ci
+      - run: echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" > .npmrc'
       - run: npm publish
-        env:
           NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
