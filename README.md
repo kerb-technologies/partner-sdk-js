@@ -1,5 +1,5 @@
 ![npm](https://img.shields.io/npm/v/kerb-partner)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kerb-technologies/partner-sdk-js/Publish%20as%20Node%20Package)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kerb-technologies/partner-sdk-js/Node.js%20CI)
 
 # partner-sdk-js
 Kerb Partner SDK for Javascript
