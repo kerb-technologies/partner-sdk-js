@@ -1,9 +1,8 @@
 {
-  "name": "@chars/kerb-partner",
+  "name": "kerb-partner",
   "version": "0.0.1",
   "description": "Kerb Partner SDK for Javascript",
   "main": "dist/index.js",
-  "type": "module",
   "exports": {
     ".": "./dist/index.js",
     "./exceptions": "./dist/exceptions.js",
