@@ -28,10 +28,11 @@ jobs:
         with:
           node-version: 15
           registry-url: https://registry.npmjs.org/
+          token: ${{secrets.NPM_TOKEN}}
       - run: npm ci
-      - run: npm publish --access=public
+      - run: npm publish
         env:
-          NPM_TOKEN: ${{secrets.npm_token}}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
     needs: build
@@ -43,6 +44,6 @@ jobs:
           node-version: 15
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm publish --access=public
+      - run: npm publish
         env:
           NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
