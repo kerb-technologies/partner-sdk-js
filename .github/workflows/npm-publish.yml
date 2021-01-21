@@ -18,7 +18,7 @@ jobs:
         env:
           KERB_PARTNER_HOST: http://apis.kerb.local
       - run: npm ci
-      - run: npm test
+      - run: KERB_PARTNER_HOST=http://apis.kerb.local npm test
 
   publish-npm:
     needs: build
