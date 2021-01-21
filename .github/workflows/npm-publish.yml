@@ -3,9 +3,11 @@
 
 name: Publish as Node Package
 
+# publish on every tags push
 on:
-  release:
-    types: [created]
+  push:
+    tags:
+      - '*'
 
 jobs:
   publish-npm:
