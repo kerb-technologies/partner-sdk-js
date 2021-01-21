@@ -1,5 +1,5 @@
 {
-  "name": "kerb-partner",
+  "name": "@emaniacs/kerb-partner",
   "version": "0.0.1",
   "description": "Kerb Partner SDK for Javascript",
   "main": "dist/index.js",
@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/kerb-technologies/partner-sdk-js.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "kerb",
     "kerb-partner"
