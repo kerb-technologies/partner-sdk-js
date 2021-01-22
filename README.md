@@ -57,3 +57,10 @@ partner.send('ping', options).then(response => {
 
 
 ```
+
+
+TODO
+
+[] use semantic release for changelog https://github.com/semantic-release/semantic-release
+[] license
+[] code of conduct
