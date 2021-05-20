@@ -1,4 +1,4 @@
-import * as requests from "../dist/requests.js";
+import * as requests from '../dist/requests.js'
 
 // this test for checking all requests name
 

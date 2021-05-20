@@ -1,7 +1,7 @@
-export default function Search(){
+export default function Search() {
   return {
     url: '/search',
     method: 'get',
-    params: {}
+    params: {},
   }
 }

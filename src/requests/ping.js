@@ -1,6 +1,6 @@
 export default function Ping() {
   return {
-    url: "/ping",
-    method: "get",
-  };
+    url: '/ping',
+    method: 'get',
+  }
 }
