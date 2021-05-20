@@ -30,7 +30,7 @@ function createConfig(obj) {
   // convert into object
   const config = { ...obj };
 
-  config.headers = generateHeader(obj.headers)
+  config.headers = generateHeader(obj.headers);
 
   return config;
 }
@@ -86,11 +86,11 @@ export function request(obj) {
   // https://github.com/axios/axios#config-order-of-precedence
   const instance = axios.create({
     baseURL: apiHost,
-  })
+  });
 
   const config = createConfig(obj);
   config.baseURL = apiHost;
-  config.headers["Authorization"] = `Bearer ${apiKey}`;
+  config.headers['Kerb-Partner-Key'] = apiKey;
 
   return instance.request(config).then(checkForRotatedKey);
 }
