@@ -45,7 +45,7 @@
     "src"
   ],
   "dependencies": {
-    "axios": "^0.21.0"
+    "axios": "^1.6.0"
   },
   "jest": {
     "watchPathIgnorePatterns": [
